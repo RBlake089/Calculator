@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="styless.css" />
+  </head>
+  <body>
     <main>
-        <h1>Standard</h1>
-        <div id="display"></div>
-        <div>
-          <button onclick="calNumber(this)">Clr</button>
-          <button onclick="calNumber(this)">()</button>
-          <button onclick="calNumber(this)">%</button>
-          <button onclick="calNumber(this)">/</button>
-          <button onclick="calNumber(this)">7</button>
-          <button onclick="calNumber(this)">8</button>
-          <button onclick="calNumber(this)">9</button>
-          <button onclick="calNumber(this)">x</button>
-          <button onclick="calNumber(this)">4</button>
-          <button onclick="calNumber(this)">5</button>
-          <button onclick="calNumber(this)">6</button>
-          <button onclick="calNumber(this)">-</button>
-          <button onclick="calNumber(this)">1</button>
-          <button onclick="calNumber(this)">2</button>
-          <button onclick="calNumber(this)">3</button>
-          <button onclick="calNumber(this)">+</button>
-          <button onclick="calNumber(this)">.</button>
-          <button onclick="calNumber(this)">0</button>
-          <button onclick="calNumber(this)">Del</button>
-          <button onclick="calNumber(this)">=</button>
-        </div>
-      </main>
-</body>
+      <h1>Standard</h1>
+      <div id="display">0</div>
+      <div>
+        <button class="control-button" onclick="handleButtonClick(this)">Clr</button>
+        <button class="control-button" onclick="handleButtonClick(this)">()</button>
+        <button class="control-button" onclick="handleButtonClick(this)">%</button>
+        <button class="control-button" onclick="handleButtonClick(this)">/</button>
+        <button class="button" onclick="handleButtonClick(this)">7</button>
+        <button class="button" onclick="handleButtonClick(this)">8</button>
+        <button class="button" onclick="handleButtonClick(this)">9</button>
+        <button class="control-button" onclick="handleButtonClick(this)">x</button>
+        <button class="button" onclick="handleButtonClick(this)">4</button>
+        <button class="button" onclick="handleButtonClick(this)">5</button>
+        <button class="button" onclick="handleButtonClick(this)">6</button>
+        <button class="control-button" onclick="handleButtonClick(this)">-</button>
+        <button class="button" onclick="handleButtonClick(this)">1</button>
+        <button class="button" onclick="handleButtonClick(this)">2</button>
+        <button class="button" onclick="handleButtonClick(this)">3</button>
+        <button class="control-button" onclick="handleButtonClick(this)">+</button>
+        <button class="control-button" onclick="handleButtonClick(this)">.</button>
+        <button class="button" onclick="handleButtonClick(this)">0</button>
+        <button class="control-button" onclick="handleButtonClick(this)">Del</button>
+        <button class="control-button" onclick="handleButtonClick(this)">=</button>
+      </div>
+    </main>
+  </body>
 </html>

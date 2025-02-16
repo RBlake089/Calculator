@@ -1,0 +1,47 @@
+/* General button styles */
+button {
+    background-color: #0066cc; /* Chun-Li inspired blue */
+    color: #FFD700; /* Gold text */
+    font-size: 18px;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid #FFD700; /* Gold border */
+    cursor: pointer;
+    width: 60px; /* Adjust size to suit your needs */
+    height: 60px; /* Adjust size to suit your needs */
+    border-radius: 50%;
+}
+
+button:hover {
+    background-color: #FFD700; /* Change background on hover */
+    color: #0066cc; /* Change text color on hover */
+}
+
+button:active {
+    background-color: #004c99; /* Darker blue when button is clicked */
+    color: #FFD700; /* Keep gold text on active click */
+}
+
+/* Control button styles */
+.control-button {
+    background-color: #FFD700; /* Gold background */
+    color: #0066cc; /* Blue text */
+    font-size: 18px;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid #0066cc; /* Gold border */
+    cursor: pointer;
+    width: 60px; /* Adjust size to suit your needs */
+    height: 60px; /* Adjust size to suit your needs */
+    border-radius: 50%;
+}
+
+.control-button:hover {
+    background-color: #0066cc; /* Change background on hover */
+    color: #FFD700;; /* Change text color on hover */
+}
+
+.control-button:active {
+    background-color: #004c99; /* Darker blue when button is clicked */
+    color: #FFD700; /* Keep gold text on active click */
+}
